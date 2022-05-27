@@ -1,0 +1,95 @@
+#Blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        font-size: 3em;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    figure {
+        background-color: white;
+        width: 25%;
+        height: 50%;
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+            padding: 2% 5%;
+            color: black;
+        }
+        h3 {
+            text-align: center;
+            font-size: 2em;
+            text-transform: capitalize;
+        }
+        img {
+            width: 100%;
+            height: 70%;
+            background-color: gray;
+        }
+    }
+}
+
+#Blogz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+    align-items: center;
+    padding: 30vh 5vw 5vw;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+    h1 {
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        font-size: 3em;
+        text-transform: uppercase;
+        color: white;
+    }
+    h2 {
+        position: absolute;
+        top: 18vh;
+        left: 5vw;
+        font-size: 2em;
+        text-transform: capitalize;
+        color: white;
+    }
+    article {
+        p {
+            color: white;
+            column-count: 2;
+            text-align: justify;
+        }
+    }
+    div {
+        position: relative;
+        img {
+            width: 30%;
+            object-fit: cover;
+            background-color: gray;
+        }
+    }
+    small {
+        position: absolute;
+        top: 25vh;
+        right: 23vw;
+        font-size: 1em;
+        text-transform: capitalize;
+        color: white;
+    }
+}
